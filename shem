@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title>Technique Scam via Apple et TikTok</title>
+<style>
+  body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .title, .section-title, strong {
+    color: red;
+  }
+  p, li, span {
+    color: blue;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  #content {
+    display: none;
+  }
+  #unlock-section {
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  #error-msg {
+    color: red;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div id="unlock-section">
+  <label for="code-input"><strong>Entrez le code pour déverrouiller le texte :</strong></label><br />
+  <input type="text" id="code-input" placeholder="Code ici" />
+  <button onclick="checkCode()">Déverrouiller</button>
+  <div id="error-msg"></div>
+</div>
+
+<div id="content">
+  <h1 class="title">Technique Scam via Apple et TikTok (By Shem)</h1>
+
+  <p><strong>Prérequis</strong></p>
+
+  <p>Pour réaliser cette arnaque, il faut disposer de :</p>
+  <ul>
+    <li><span>Un iPhone</span></li>
+    <li><span>Un compte TikTok avec au minimum 500 abonnés</span></li>
+    <li><span>Un compte PayPal</span></li>
+    <li><span>Une bonne excuse pour obtenir le numéro de téléphone de la victime</span></li>
+  </ul>
+
+  <p><strong>Obtenir le numéro de téléphone de la victime</strong></p>
+
+  <p><strong>Étape 1 :</strong> <span>Rejoignez un serveur Discord fréquenté par des jeunes, par exemple « Blox Fruits FR » (lien : .gg/bloxfruitsfr).</span></p>
+  <p><strong>Étape 2 :</strong> <span>Trouvez une excuse pour demander le numéro de téléphone de votre cible.<br />
+  Par exemple :<br />
+  « Je bug sur Discord, viens on parle sur WhatsApp ».<br />
+  Une fois que la victime accepte, vous obtenez son numéro de téléphone.</span></p>
+
+  <p><strong>Utiliser le numéro pour le paiement via facture mobile</strong></p>
+
+  <p><strong>Étape 1 :</strong> <span>Sur l’iPhone, allez dans Réglages &gt; Paiement et livraisons &gt; Mode de paiement</span></p>
+  <p><strong>Étape 2 :</strong> <span>Choisissez le mode de paiement Facture Mobile.</span></p>
+  <p><strong>Étape 3 :</strong> <span>Entrez le numéro de téléphone de la victime.<br />
+  Un code de confirmation est alors envoyé à ce numéro.</span></p>
+
+  <p><strong>Récupérer le code de confirmation</strong></p>
+
+  <p><span>Deux méthodes pour obtenir ce code :</span></p>
+
+  <p><strong>1ère méthode : Partage d’écran</strong></p>
+
+  <p><strong>Étape 1 :</strong> <span>Demandez à la victime de faire un partage d’écran via TikTok, Snapchat ou Instagram, avec une excuse du type « Montre-moi tes pourtoi ».</span></p>
+
+  <p><strong>Étape 2 :</strong> <span>Dès que vous entrez le numéro pour le paiement via forfait mobile, la victime reçoit le code en notification, que vous pouvez voir grâce au partage d’écran.</span></p>
+
+  <p><strong>2ème méthode : Demander directement le code</strong></p>
+
+  <p><strong>Étape 1 :</strong> <span>Faites pression sur la victime en lui demandant rapidement le code, par exemple :</span></p>
+
+  <p><span>« Donne-moi le code vite, il reste 30 secondes, dépêche »</span></p>
+
+  <p><strong>Transformer l’argent volé en argent réel</strong></p>
+
+  <p><strong>Étape 1 :</strong> <span>Utilisez un compte TikTok avec au moins 500 abonnés pour pouvoir faire des lives.</span></p>
+  <p><strong>Étape 2 :</strong> <span>Payez des pièces TikTok avec le forfait mobile frauduleux sur un compte secondaire.</span></p>
+  <p><strong>Étape 3 :</strong> <span>Faites un live sur votre compte principal et envoyez-vous ces pièces depuis le compte secondaire.</span></p>
+  <p><strong>Étape 4 :</strong> <span>Une fois les pièces reçues, vous pouvez retirer l’argent via le solde TikTok vers PayPal ou un autre moyen.</span></p>
+
+  <p><span>(Avec le Forfait Mobile, vous pouvez aussi simplement payez sur des applications tel que Brawl Stars, Roblox, Snapchat, Discord sans forcément passer par TikTok sachant que la méthode avec TikTok est utile seulement pour convertir l’argent volé en argent sur PayPal.)</span></p>
+</div>
+
+<script>
+  function checkCode() {
+    const input = document.getElementById('code-input').value.trim();
+    const errorMsg = document.getElementById('error-msg');
+    if (input.toLowerCase() === 'shemontop') {
+      document.getElementById('content').style.display = 'block';
+      document.getElementById('unlock-section').style.display = 'none';
+      errorMsg.textContent = '';
+    } else {
+      errorMsg.textContent = 'Code incorrect, veuillez réessayer.';
+    }
+  }
+</script>
+
+</body>
+</html>
